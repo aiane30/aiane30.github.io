@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aiane Conteúdos</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('fundo.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.btn {
+    background: #ff0066;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff3385;
+}
+
+footer {
+    position: absolute;
+    bottom: 15px;
+    color: #ccc;
+    font-size: 12px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="overlay">
+    <div class="container">
+        <h1>Aiane Conteúdos 🔥</h1>
+        <p>Conteúdos exclusivos e personalizados. Acesso direto e discreto.</p>
+
+        <a class="btn" href="https://wa.me/5531981169424" target="_blank">
+            Falar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<footer>
+© 2026 Aiane Conteúdos
+</footer>
+
+</body>
+</html>
